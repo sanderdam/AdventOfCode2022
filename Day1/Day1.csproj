@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="d1p1.txt" />
+    <None Remove="d1p1_test.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="d1p1.txt" />
+    <Content Include="d1p1_test.txt" />
+  </ItemGroup>
+
 </Project>
